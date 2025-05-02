@@ -1,7 +1,7 @@
 
 ## 🧾 PDF to PNG OCR-Ready API
 
-Transforma qualquer PDF (texto ou escaneado) em imagens `.png` prontas pro OCR, com contraste turbinado, cortes nos espaços em branco e tudo em base64.
+Transforma qualquer PDF (texto ou escaneado) em imagens `.png` prontas pro OCR, com contraste turbinado e manda tudo em base64.
 
 ---
 
