@@ -1,5 +1,5 @@
 
-## 🧾 PDF to PNG OCR-Ready API
+## 🧾 PDF2PNG OCR-Ready API
 
 Transforma qualquer PDF (texto ou escaneado) em imagens `.png` prontas pro OCR, com contraste turbinado e manda tudo em base64.
 
