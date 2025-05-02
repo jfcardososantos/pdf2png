@@ -10,9 +10,9 @@ import cv2
 
 app = FastAPI()
 
-def pdf_to_images(pdf_file) -> list:
+def pdf_to_images(pdf_file_bytes) -> list:
     from pdf2image import convert_from_bytes
-    return convert_from_bytes(pdf_file.read(), dpi=300)
+    return convert_from_bytes(pdf_file_bytes, dpi=300)
 
 def pil_to_cv2(image: Image.Image) -> np.ndarray:
     return cv2.cvtColor(np.array(image), cv2.COLOR_RGB2BGR)
